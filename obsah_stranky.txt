@@ -1,6 +1,6 @@
 1. Predstavenie návštevníkom na domovskej stránke:
 
-Vitajte na mojich osobných stránkach!
+Vitajte na mojich osobných stránkach! test
 Som Levo,
 váš cestovateľ digitálnym priestorom. S piatimi rokmi skúseností ako vášnivý PYTHON programátor, sa pohybujem medzi kódovaním a tvorbou so ZÁPALOM a nekonečnou KREATIVITOU.
 
