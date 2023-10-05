@@ -19,7 +19,8 @@ app.layout = html.Div([
     ),
 
     dmc.Button(
-        "Stiskni mně"
+        "Stiskni mně",
+        id="tlacitko",
     ),
 
     dmc.Text(id="vystup")
