@@ -27,9 +27,9 @@ app.layout = html.Div([
 ])
 @callback(
     Output(component_id="vystup" , component_property="children"),
-    Input(component_id="tlacitko" , component_property="n_click"),
-    State(component_id="input-1" , component_property="value"),
-    State(component_id="input-2" , component_property="value"),
+    Input(component_id="tlacitko" , component_property="n_clicks"),
+    State(component_id="input1" , component_property="value"),
+    State(component_id="input2" , component_property="value"),
     prevent_initial_call= True,
 )
 
