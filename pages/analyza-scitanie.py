@@ -32,7 +32,7 @@ layout = dmc.Stack([
 def data_do_grafu(uzemie):
     w_df = df.copy()
     w_df = w_df[w_df["uzemi_txt"] == uzemie]
-    w_df = w_df.groupby(by=["vzdelanie_txt"])["hodnota"].sum().reset_index()
+    w_df = w_df.groupby(by=["vzdelani_txt"])["hodnota"].sum().reset_index()
 
-    fig = bar(w_df, x="vzdelanie_txt", y = "hodnota")
+    fig = bar(w_df, x="vzdelani_txt", y = "hodnota")
     return fig
